@@ -3,14 +3,6 @@
 #include <string.h>
 #include "lista.h"
 
-
-
-
-void imprimirEntero(void *dato);
-void imprimirReal(void *dato);
-int comparaEntero(void *dato1, void *dato2);
-int comparaReal(void *dato1, void *dato2);
-
 void imprimirEntero(void *dato) {
     int *x;
     x = (int *)dato;
